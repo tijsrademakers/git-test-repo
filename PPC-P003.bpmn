@@ -6,7 +6,7 @@
       <design:creationdate><![CDATA[2026-02-28T09:40:28.966Z]]></design:creationdate>
       <design:modificationdate><![CDATA[2026-02-28T16:46:11.030Z]]></design:modificationdate>
     </extensionElements>
-    <serviceTask id="DmnTask_variantes" name="Decide variant" flowable:type="dmn">
+    <serviceTask id="DmnTask_variantes" name="Decide variant 2" flowable:type="dmn">
       <extensionElements>
         <flowable:field name="decisionTableReferenceKey">
           <flowable:string><![CDATA[PPC-D001]]></flowable:string>
