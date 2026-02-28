@@ -4,8 +4,8 @@
     <extensionElements>
       <flowable:historyLevel><![CDATA[none]]></flowable:historyLevel>
       <design:stencilid><![CDATA[BPMNDiagram]]></design:stencilid>
-      <design:creationdate><![CDATA[2026-01-26T07:27:26.059Z]]></design:creationdate>
-      <design:modificationdate><![CDATA[2026-01-26T07:28:00.894Z]]></design:modificationdate>
+      <design:creationdate><![CDATA[2026-02-28T09:40:28.940Z]]></design:creationdate>
+      <design:modificationdate><![CDATA[2026-02-28T10:23:24.957Z]]></design:modificationdate>
     </extensionElements>
     <serviceTask id="ServiceRegistryTask_1" name="Get tiers from Osiris" flowable:delegateExpression="${serviceRegistryService}" flowable:type="service-registry" flowable:extensionId="ServiceRegistryTask">
       <extensionElements>
@@ -589,17 +589,11 @@ def buildMap(items) {
   </process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_PPC-P002">
     <bpmndi:BPMNPlane bpmnElement="PPC-P002" id="BPMNPlane_PPC-P002">
-      <bpmndi:BPMNShape bpmnElement="TextAnnotation_5" id="BPMNShape_TextAnnotation_5">
-        <omgdc:Bounds height="73.0" width="115.0" x="1067.5" y="108.51388549804688"></omgdc:Bounds>
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="ServiceRegistryTask_1" id="BPMNShape_ServiceRegistryTask_1">
         <omgdc:Bounds height="80.0" width="100.0" x="453.0" y="236.0"></omgdc:Bounds>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="CollapsedSubprocess_6" id="BPMNShape_CollapsedSubprocess_6" isExpanded="false">
         <omgdc:Bounds height="80.0" width="100.0" x="659.75" y="236.0"></omgdc:Bounds>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape bpmnElement="TextAnnotation_6" id="BPMNShape_TextAnnotation_6">
-        <omgdc:Bounds height="50.0" width="120.0" x="272.0" y="120.01388549804688"></omgdc:Bounds>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="startnoneevent1" id="BPMNShape_startnoneevent1">
         <omgdc:Bounds height="30.0" width="30.0" x="317.0" y="261.0"></omgdc:Bounds>
@@ -607,11 +601,17 @@ def buildMap(items) {
       <bpmndi:BPMNShape bpmnElement="IntermediateTimerEvent_5" id="BPMNShape_IntermediateTimerEvent_5">
         <omgdc:Bounds height="30.0" width="30.0" x="984.0" y="261.0"></omgdc:Bounds>
         <bpmndi:BPMNLabel>
-          <omgdc:Bounds height="18.0" width="87.0" x="955.5" y="295.0"></omgdc:Bounds>
+          <omgdc:Bounds height="18.0" width="87.0" x="955.0" y="295.0"></omgdc:Bounds>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape bpmnElement="EndNoneEvent_1" id="BPMNShape_EndNoneEvent_1">
         <omgdc:Bounds height="28.0" width="28.0" x="1111.0" y="262.0"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="TextAnnotation_5" id="BPMNShape_TextAnnotation_5">
+        <omgdc:Bounds height="73.0" width="115.0" x="1067.5" y="108.51388549804688"></omgdc:Bounds>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="TextAnnotation_6" id="BPMNShape_TextAnnotation_6">
+        <omgdc:Bounds height="50.0" width="120.0" x="272.0" y="120.01388549804688"></omgdc:Bounds>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge bpmnElement="SequenceFlow_8" id="BPMNEdge_SequenceFlow_8" flowable:sourceDockerX="50.0" flowable:sourceDockerY="40.0" flowable:targetDockerX="50.0" flowable:targetDockerY="40.0">
         <omgdi:waypoint x="553.0" y="276.0"></omgdi:waypoint>
@@ -623,13 +623,13 @@ def buildMap(items) {
         <omgdi:waypoint x="759.0" y="276.0"></omgdi:waypoint>
         <omgdi:waypoint x="984.0" y="276.0"></omgdi:waypoint>
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge bpmnElement="AssociationUndirected_6" id="BPMNEdge_AssociationUndirected_6" flowable:sourceDockerX="58.0" flowable:sourceDockerY="37.0" flowable:targetDockerX="14.0" flowable:targetDockerY="14.0">
-        <omgdi:waypoint x="1125.0" y="181.0"></omgdi:waypoint>
-        <omgdi:waypoint x="1125.0" y="262.0"></omgdi:waypoint>
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="SequenceFlow_6" id="BPMNEdge_SequenceFlow_6" flowable:sourceDockerX="15.0" flowable:sourceDockerY="15.0" flowable:targetDockerX="14.0" flowable:targetDockerY="14.0">
         <omgdi:waypoint x="1014.0" y="276.0"></omgdi:waypoint>
         <omgdi:waypoint x="1111.0" y="276.0"></omgdi:waypoint>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="AssociationUndirected_6" id="BPMNEdge_AssociationUndirected_6" flowable:sourceDockerX="58.0" flowable:sourceDockerY="37.0" flowable:targetDockerX="14.0" flowable:targetDockerY="14.0">
+        <omgdi:waypoint x="1125.0" y="181.0"></omgdi:waypoint>
+        <omgdi:waypoint x="1125.0" y="262.0"></omgdi:waypoint>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="SequenceFlow_7" id="BPMNEdge_SequenceFlow_7" flowable:sourceDockerX="15.0" flowable:sourceDockerY="15.0" flowable:targetDockerX="50.0" flowable:targetDockerY="40.0">
         <omgdi:waypoint x="347.0" y="276.0"></omgdi:waypoint>
