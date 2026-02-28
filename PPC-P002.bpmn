@@ -5,7 +5,7 @@
       <flowable:historyLevel><![CDATA[none]]></flowable:historyLevel>
       <design:stencilid><![CDATA[BPMNDiagram]]></design:stencilid>
       <design:creationdate><![CDATA[2026-02-28T09:40:28.940Z]]></design:creationdate>
-      <design:modificationdate><![CDATA[2026-02-28T10:23:24.957Z]]></design:modificationdate>
+      <design:modificationdate><![CDATA[2026-02-28T15:10:25.961Z]]></design:modificationdate>
     </extensionElements>
     <serviceTask id="ServiceRegistryTask_1" name="Get tiers from Osiris" flowable:delegateExpression="${serviceRegistryService}" flowable:type="service-registry" flowable:extensionId="ServiceRegistryTask">
       <extensionElements>
