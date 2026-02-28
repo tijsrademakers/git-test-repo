@@ -21,7 +21,7 @@
         <design:stencilid><![CDATA[CollapsedSubprocess]]></design:stencilid>
         <design:entry><![CDATA[PPC-P003]]></design:entry>
       </extensionElements>
-      <serviceTask id="PPC-P003_DmnTask_variantes" name="Decide variant 3" flowable:type="dmn">
+      <serviceTask id="PPC-P003_DmnTask_variantes" name="Decide variant 5" flowable:type="dmn">
         <extensionElements>
           <flowable:field name="decisionTableReferenceKey">
             <flowable:string><![CDATA[PPC-D001]]></flowable:string>
