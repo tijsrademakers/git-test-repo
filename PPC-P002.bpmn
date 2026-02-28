@@ -5,7 +5,7 @@
       <flowable:historyLevel><![CDATA[none]]></flowable:historyLevel>
       <design:stencilid><![CDATA[BPMNDiagram]]></design:stencilid>
       <design:creationdate><![CDATA[2026-02-28T09:40:28.940Z]]></design:creationdate>
-      <design:modificationdate><![CDATA[2026-02-28T16:46:10.993Z]]></design:modificationdate>
+      <design:modificationdate><![CDATA[2026-02-28T18:17:40.243Z]]></design:modificationdate>
     </extensionElements>
     <serviceTask id="ServiceRegistryTask_1" name="Get tiers from Osiris" flowable:delegateExpression="${serviceRegistryService}" flowable:type="service-registry" flowable:extensionId="ServiceRegistryTask">
       <extensionElements>
@@ -21,7 +21,7 @@
         <design:stencilid><![CDATA[CollapsedSubprocess]]></design:stencilid>
         <design:entry><![CDATA[PPC-P003]]></design:entry>
       </extensionElements>
-      <serviceTask id="PPC-P003_DmnTask_variantes" name="Decide variantes" flowable:type="dmn">
+      <serviceTask id="PPC-P003_DmnTask_variantes" name="Decide variant 3" flowable:type="dmn">
         <extensionElements>
           <flowable:field name="decisionTableReferenceKey">
             <flowable:string><![CDATA[PPC-D001]]></flowable:string>
