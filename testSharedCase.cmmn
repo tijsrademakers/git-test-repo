@@ -7,7 +7,7 @@
         <flowable:work-form-field-validation><![CDATA[false]]></flowable:work-form-field-validation>
         <design:stencilid><![CDATA[CasePlanModel]]></design:stencilid>
       </extensionElements>
-      <planItem id="planItemHumanTask_1" name="Human task" definitionRef="HumanTask_1"></planItem>
+      <planItem id="planItemHumanTask_1" name="Git task" definitionRef="HumanTask_1"></planItem>
       <planItem id="planItemProcessTask_2" name="Process task" definitionRef="ProcessTask_2">
         <entryCriterion id="EntryCriterion_3" sentryRef="sentryEntryCriterion_3"></entryCriterion>
       </planItem>
@@ -19,7 +19,7 @@
           <standardEvent>complete</standardEvent>
         </planItemOnPart>
       </sentry>
-      <humanTask id="HumanTask_1" name="Human task" flowable:assignee="${initiator}" flowable:formFieldValidation="false">
+      <humanTask id="HumanTask_1" name="Git task" flowable:assignee="${initiator}" flowable:formFieldValidation="false">
         <extensionElements>
           <flowable:task-candidates-type><![CDATA[all]]></flowable:task-candidates-type>
           <design:stencilid><![CDATA[HumanTask]]></design:stencilid>
