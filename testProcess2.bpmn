@@ -6,7 +6,7 @@
       <design:creationdate><![CDATA[2026-02-27T21:40:41.741Z]]></design:creationdate>
       <design:modificationdate><![CDATA[2026-02-27T21:41:06.758Z]]></design:modificationdate>
     </extensionElements>
-    <userTask id="FormTask_1" name="User task" flowable:assignee="${initiator}" flowable:formKey="testFormGit" flowable:formFieldValidation="false">
+    <userTask id="FormTask_1" name="Test git task" flowable:assignee="${initiator}" flowable:formKey="testFormGit" flowable:formFieldValidation="false">
       <extensionElements>
         <flowable:task-candidates-type><![CDATA[all]]></flowable:task-candidates-type>
         <design:stencilid><![CDATA[FormTask]]></design:stencilid>
