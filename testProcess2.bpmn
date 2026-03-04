@@ -4,7 +4,7 @@
     <extensionElements>
       <design:stencilid><![CDATA[BPMNDiagram]]></design:stencilid>
       <design:creationdate><![CDATA[2026-03-03T20:04:50.116Z]]></design:creationdate>
-      <design:modificationdate><![CDATA[2026-03-03T20:04:50.116Z]]></design:modificationdate>
+      <design:modificationdate><![CDATA[2026-03-04T12:43:52.324Z]]></design:modificationdate>
     </extensionElements>
     <userTask id="FormTask_1" name="User task" flowable:assignee="${initiator}" flowable:formKey="testFormGit" flowable:formFieldValidation="false">
       <extensionElements>

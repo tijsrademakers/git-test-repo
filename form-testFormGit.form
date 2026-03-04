@@ -6,7 +6,7 @@
         "stencilId" : "cloud-text"
       },
       "labelAlign" : "top",
-      "value" : "{{asddsdd}}",
+      "value" : "{{myName}}",
       "ignore" : false,
       "visible" : true,
       "enabled" : true,
@@ -18,7 +18,7 @@
       },
       "size" : 12,
       "tabIndex" : 0,
-      "label" : "asddsdd",
+      "label" : "My new label",
       "id" : "text1",
       "type" : "text"
     } ]
@@ -54,7 +54,7 @@
     "key" : "testFormGit",
     "name" : "test form git",
     "description" : null,
-    "version" : "2",
+    "version" : "3",
     "modelType" : "form",
     "flowableDesignVersion" : 3110,
     "palette" : "flowable-work-form-palette"
