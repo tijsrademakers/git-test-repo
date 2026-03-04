@@ -8,7 +8,7 @@
   "groupsAccess" : null,
   "flowApp" : false,
   "url" : null,
-  "paletteDefinitionCategory" : "engage",
+  "paletteDefinitionCategory" : "work",
   "extension" : {
     "design" : {
       "childModels" : [ {
